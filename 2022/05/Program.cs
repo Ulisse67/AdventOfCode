@@ -23,7 +23,7 @@ ix += 2; // instructi0ons start here
 foreach(var line in lines[ix..]) {
     var sa = line.Split(' ');
     var (qt, from, to) = (int.Parse(sa[1]), int.Parse(sa[3])-1, int.Parse(sa[5])-1);
-    var add = new Stack<char(qt);
+    var add = new Stack<char>(qt);
 
     for(int q=qt; q>0; q--) add.Push(crates[from].Pop());
     foreach (var ch in add) crates[to].Push(ch);
