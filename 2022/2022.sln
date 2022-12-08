@@ -15,7 +15,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04", "04\04.csproj", "{A859
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05", "05\05.csproj", "{92B1E991-5D57-4633-B9A5-ECB9E5481569}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07 - file system browser", "07 - file system browser\07 - file system browser.csproj", "{0776655F-0777-4FBD-8841-CCA08DA7398E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07 - file system browser", "07 - file system browser\07 - file system browser.csproj", "{0776655F-0777-4FBD-8841-CCA08DA7398E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08 - Tree house", "08 - Tree house\08 - Tree house.csproj", "{8F11999A-7865-4E8D-B2A7-8AC5930D8971}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extensions", "Extensions\Extensions.csproj", "{E962628E-451C-40CB-88F4-69ED0FA5973A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +55,14 @@ Global
 		{0776655F-0777-4FBD-8841-CCA08DA7398E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0776655F-0777-4FBD-8841-CCA08DA7398E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0776655F-0777-4FBD-8841-CCA08DA7398E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F11999A-7865-4E8D-B2A7-8AC5930D8971}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F11999A-7865-4E8D-B2A7-8AC5930D8971}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F11999A-7865-4E8D-B2A7-8AC5930D8971}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F11999A-7865-4E8D-B2A7-8AC5930D8971}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E962628E-451C-40CB-88F4-69ED0FA5973A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E962628E-451C-40CB-88F4-69ED0FA5973A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E962628E-451C-40CB-88F4-69ED0FA5973A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E962628E-451C-40CB-88F4-69ED0FA5973A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
