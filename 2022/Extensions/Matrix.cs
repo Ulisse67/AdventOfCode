@@ -24,6 +24,14 @@ public static class MatrixExtensions {
 		return ar;
 	}
 
+	public static (int r, int c) Find<T>(this T[,] ar, T val)
+	{
+		int d0 = ar.GetLength(0), d1 = ar.GetLength(1);
+		for (int r = 0; r < d0; r++) for (int c = 0; c < d1; c++) if(ar[r, c].Equals(val)) return (r,c);
+
+		return default;
+	}
+
 	static T[,] Clone<T>(this T[,] lhs)
 	{
 		T[,] res = new T[lhs.GetLength(0), lhs.GetLength(1)];
@@ -35,7 +43,24 @@ public static class MatrixExtensions {
 
 	public static void Print<T>(this T[,] mx)
 	{
+		Console.WriteLine();
+
 		int d0 = mx.GetLength(0), d1 = mx.GetLength(1);
+		for (int r = 0; r < d0; r++) {
+			Console.Write($"{r,5}: ");
+			for (int c = 0; c < d1; c++) {
+				Console.Write(mx[r, c]);
+			}
+
+			Console.WriteLine();
+		}
+	}
+
+	public static void Print<T>(this T[,] mx, int maxr, int maxc)
+	{
+		Console.Clear();//.WriteLine();
+
+		int d0 = Math.Min(mx.GetLength(0),maxr), d1 = Math.Min(mx.GetLength(1), maxc);
 		for (int r = 0; r < d0; r++) {
 			Console.Write($"{r,5}: ");
 			for (int c = 0; c < d1; c++) {

@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10 - Cathode-ray tube", "10
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11 - Monkey in the middle", "11 - Monkey in the middle\11 - Monkey in the middle.csproj", "{4CD1DD5C-7960-4141-AA7B-544712080054}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12 - Hill climbing", "12 - Hill climbing\12 - Hill climbing.csproj", "{9E5F8409-DD61-432E-B114-6DC72604D256}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{4CD1DD5C-7960-4141-AA7B-544712080054}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4CD1DD5C-7960-4141-AA7B-544712080054}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4CD1DD5C-7960-4141-AA7B-544712080054}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E5F8409-DD61-432E-B114-6DC72604D256}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E5F8409-DD61-432E-B114-6DC72604D256}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E5F8409-DD61-432E-B114-6DC72604D256}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E5F8409-DD61-432E-B114-6DC72604D256}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
