@@ -21,13 +21,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08 - Tree house", "08 - Tre
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Extensions", "Extensions\Extensions.csproj", "{E962628E-451C-40CB-88F4-69ED0FA5973A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09 - Rope physics", "09 - Rope physics\09 - Rope physics.csproj", "{8D3D758A-8815-4D45-8FC7-9498B6B953C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09 - Rope physics", "09 - Rope physics\09 - Rope physics.csproj", "{8D3D758A-8815-4D45-8FC7-9498B6B953C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10 - Cathode-ray tube", "10 - Cathode-ray tube\10 - Cathode-ray tube.csproj", "{8CF6AADE-E9C1-46A5-8664-C4E0B3B4E9F7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10 - Cathode-ray tube", "10 - Cathode-ray tube\10 - Cathode-ray tube.csproj", "{8CF6AADE-E9C1-46A5-8664-C4E0B3B4E9F7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11 - Monkey in the middle", "11 - Monkey in the middle\11 - Monkey in the middle.csproj", "{4CD1DD5C-7960-4141-AA7B-544712080054}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11 - Monkey in the middle", "11 - Monkey in the middle\11 - Monkey in the middle.csproj", "{4CD1DD5C-7960-4141-AA7B-544712080054}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12 - Hill climbing", "12 - Hill climbing\12 - Hill climbing.csproj", "{9E5F8409-DD61-432E-B114-6DC72604D256}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "12 - Hill climbing", "12 - Hill climbing\12 - Hill climbing.csproj", "{9E5F8409-DD61-432E-B114-6DC72604D256}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13 - List compare", "13 - List compare\13 - List compare.csproj", "{184266C9-D1FC-4874-A2B0-8B3F60D748E6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +89,10 @@ Global
 		{9E5F8409-DD61-432E-B114-6DC72604D256}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E5F8409-DD61-432E-B114-6DC72604D256}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E5F8409-DD61-432E-B114-6DC72604D256}.Release|Any CPU.Build.0 = Release|Any CPU
+		{184266C9-D1FC-4874-A2B0-8B3F60D748E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{184266C9-D1FC-4874-A2B0-8B3F60D748E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{184266C9-D1FC-4874-A2B0-8B3F60D748E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{184266C9-D1FC-4874-A2B0-8B3F60D748E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
