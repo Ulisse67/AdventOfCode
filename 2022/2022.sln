@@ -31,7 +31,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "12 - Hill climbing", "12 - 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "13 - List compare", "13 - List compare\13 - List compare.csproj", "{184266C9-D1FC-4874-A2B0-8B3F60D748E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14 - Regolith reservoir", "14 - Regolith reservoir\14 - Regolith reservoir.csproj", "{A39F6A7A-BEFF-4E22-836A-8EB222D7F072}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "14 - Regolith reservoir", "14 - Regolith reservoir\14 - Regolith reservoir.csproj", "{A39F6A7A-BEFF-4E22-836A-8EB222D7F072}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "15 - Beacon exclusion zone", "15 - Beacon exclusion zone\15 - Beacon exclusion zone.csproj", "{F69CDADE-2680-4DCB-B1A2-504D3684A603}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +101,10 @@ Global
 		{A39F6A7A-BEFF-4E22-836A-8EB222D7F072}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A39F6A7A-BEFF-4E22-836A-8EB222D7F072}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A39F6A7A-BEFF-4E22-836A-8EB222D7F072}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F69CDADE-2680-4DCB-B1A2-504D3684A603}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F69CDADE-2680-4DCB-B1A2-504D3684A603}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F69CDADE-2680-4DCB-B1A2-504D3684A603}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F69CDADE-2680-4DCB-B1A2-504D3684A603}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
