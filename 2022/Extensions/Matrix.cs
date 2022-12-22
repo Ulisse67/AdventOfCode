@@ -41,15 +41,17 @@ public static class MatrixExtensions {
 		return res;
 	}
 
-	public static void Print<T>(this T[,] mx)
+	public static void Print<T>(this T[,] mx, int just=0)
 	{
 		Console.WriteLine();
+		bool usecomma = typeof(T) != typeof(char);
 
 		int d0 = mx.GetLength(0), d1 = mx.GetLength(1);
 		for (int r = 0; r < d0; r++) {
-			Console.Write($"{r,5}: ");
+			Console.Write("{0,5}: ", r);
 			for (int c = 0; c < d1; c++) {
-				Console.Write(mx[r, c]);
+				Console.Write(just > 0 ? $"{{0,{just}}}" : "{0}", mx[r, c]);
+				if(usecomma && c < d1 - 1) Console.Write(',');
 			}
 
 			Console.WriteLine();
