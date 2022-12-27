@@ -37,7 +37,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "15 - Beacon exclusion zone"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "16 - Valve pressure release", "16 - Valve pressure release\16 - Valve pressure release.csproj", "{2E33BE37-28C6-45ED-BEDD-9CCA5DAB625D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17 - Pyroclastic flow (tetris)", "17 - Pyroclastic flow (tetris)\17 - Pyroclastic flow (tetris).csproj", "{9969FA95-5528-47A7-98BC-119F5062DF3C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "17 - Pyroclastic flow (tetris)", "17 - Pyroclastic flow (tetris)\17 - Pyroclastic flow (tetris).csproj", "{9969FA95-5528-47A7-98BC-119F5062DF3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18 - Lava cubes", "18 - Lava cubes\18 - Lava cubes.csproj", "{6F5AD97F-54AB-4C89-B8E6-3CF498033D57}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -117,6 +119,10 @@ Global
 		{9969FA95-5528-47A7-98BC-119F5062DF3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9969FA95-5528-47A7-98BC-119F5062DF3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9969FA95-5528-47A7-98BC-119F5062DF3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F5AD97F-54AB-4C89-B8E6-3CF498033D57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F5AD97F-54AB-4C89-B8E6-3CF498033D57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F5AD97F-54AB-4C89-B8E6-3CF498033D57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F5AD97F-54AB-4C89-B8E6-3CF498033D57}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
